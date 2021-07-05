@@ -1,0 +1,118 @@
+PODS:
+  - Alamofire (5.4.3)
+  - BigInt (5.2.0)
+  - BitcoinCore.swift (0.15.4):
+    - BigInt (~> 5.0)
+    - GRDB.swift (~> 4.0)
+    - HdWalletKit.swift (~> 1.5)
+    - HsToolKit.swift (~> 1.1.0)
+    - ObjectMapper (~> 3.0)
+    - OpenSslKit.swift (~> 1.0)
+    - RxSwift (~> 5.0)
+    - Secp256k1Kit.swift (~> 1.0)
+    - UIExtensions.swift (~> 1.1.1)
+  - BitcoinKit.swift (0.15.4):
+    - BigInt (~> 5.0)
+    - BitcoinCore.swift (~> 0.15)
+    - GRDB.swift (~> 4.0)
+    - HdWalletKit.swift (~> 1.5)
+    - Hodler.swift (~> 0.15)
+    - ObjectMapper (~> 3.0)
+    - OpenSslKit.swift (~> 1.0)
+    - RxSwift (~> 5.0)
+    - Secp256k1Kit.swift (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GRDB.swift (4.14.0):
+    - GRDB.swift/standard (= 4.14.0)
+  - GRDB.swift/standard (4.14.0)
+  - HdWalletKit.swift (1.5.1):
+    - OpenSslKit.swift (~> 1.0)
+    - Secp256k1Kit.swift (~> 1.0)
+  - Hodler.swift (0.15.4):
+    - BitcoinCore.swift (~> 0.15)
+    - OpenSslKit.swift (~> 1.0)
+    - Secp256k1Kit.swift (~> 1.0)
+  - HsToolKit.swift (1.1.0):
+    - Alamofire (~> 5.0)
+    - ObjectMapper (~> 3.0)
+    - RxSwift (~> 5.0)
+  - iOSSnapshotTestCase (6.2.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 6.2.0)
+  - iOSSnapshotTestCase/Core (6.2.0)
+  - iOSSnapshotTestCase/SwiftSupport (6.2.0):
+    - iOSSnapshotTestCase/Core
+  - Nimble (8.0.9)
+  - Nimble-Snapshots (8.0.0):
+    - Nimble-Snapshots/Core (= 8.0.0)
+  - Nimble-Snapshots/Core (8.0.0):
+    - iOSSnapshotTestCase (~> 6.0)
+    - Nimble (~> 8.0)
+  - ObjectMapper (3.5.3)
+  - OpenSslKit.swift (1.2.2)
+  - Quick (2.2.1)
+  - RxSwift (5.1.2)
+  - Secp256k1Kit.swift (1.1)
+  - UIExtensions.swift (1.1.1)
+  - VclWalletKit (0.1.0):
+    - BitcoinKit.swift
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - Nimble (~> 8.0.7)
+  - Nimble-Snapshots (~> 8.0.0)
+  - Quick (~> 2.2.0)
+  - VclWalletKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BigInt
+    - BitcoinCore.swift
+    - BitcoinKit.swift
+    - FBSnapshotTestCase
+    - GRDB.swift
+    - HdWalletKit.swift
+    - Hodler.swift
+    - HsToolKit.swift
+    - iOSSnapshotTestCase
+    - Nimble
+    - Nimble-Snapshots
+    - ObjectMapper
+    - OpenSslKit.swift
+    - Quick
+    - RxSwift
+    - Secp256k1Kit.swift
+    - UIExtensions.swift
+
+EXTERNAL SOURCES:
+  VclWalletKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  BigInt: f668a80089607f521586bbe29513d708491ef2f7
+  BitcoinCore.swift: 862e87df27ceb19fe3e1b5bb81a09712f0562e2c
+  BitcoinKit.swift: 2476aa6a594ea0355791e117120eb458ed8d662f
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GRDB.swift: 8cc3ab7c8b8b4ac1761deb8dca4b51c1c9d429f8
+  HdWalletKit.swift: 30b1ab08c736422eeefe346369ced89574e2ec00
+  Hodler.swift: d0fe42eec0dc743fde527325c5284187a4dec073
+  HsToolKit.swift: d47ef3e8c507a6e980f2f6d819c5b0cf05845910
+  iOSSnapshotTestCase: 9ab44cb5aa62b84d31847f40680112e15ec579a6
+  Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
+  Nimble-Snapshots: 8ec63f41ce6c7229a17be9a64edbc123b181f75b
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  OpenSslKit.swift: 0e2194853fd9ce42006cf18c89743331406a10a9
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  RxSwift: 1e2e1f9570186967f617e49128ed26ccf1bafc8e
+  Secp256k1Kit.swift: 322a66c4b3e95e96a397d73d45ad4d79af991bab
+  UIExtensions.swift: 3ed084c0343ddd0f86c7c558d37759e1fd7d5778
+  VclWalletKit: 66fdf2fbab3151e9446cee8d4ef900b179b72307
+
+PODFILE CHECKSUM: 12ebb9cf6a183bec557419233a6f5ba2b5844b89
+
+COCOAPODS: 1.10.1

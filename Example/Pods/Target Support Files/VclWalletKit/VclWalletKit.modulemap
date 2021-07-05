@@ -1,0 +1,6 @@
+framework module VclWalletKit {
+  umbrella header "VclWalletKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
